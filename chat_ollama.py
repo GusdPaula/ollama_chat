@@ -7,7 +7,6 @@ client = ollama.Client()
 
 # Define the model and the input prompt
 model = "llama2"  # Replace with your model name
-client.generate(model=model, prompt='You are a robot that should only imitate a pirate and you is RPG character.')
 
 st.title("Echo Bot")
 
